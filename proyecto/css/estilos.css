@@ -1,0 +1,161 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+
+
+.menu-navegacion{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*padding: 10px 10px;*/
+	background: #F3E656;
+	text-align: right;
+}
+
+.menu-navegacion ul li{
+	/* Queta las viñetas, te coloca la lista horizontal*/
+	list-style: none;
+	display: inline;
+}
+
+
+.menu-navegacion ul li a{
+	/*tamaña del objeto*/
+	padding: 10px 15px;
+	/*Fondo del objeto*/
+	background: #7753C9;
+	/*color de letra*/
+	color: #F3EAF9;
+	/*Quita el subrayado de la palabra*/
+	text-decoration: none;
+}
+
+
+/*Realiza el sombreado donde se coloca el mouse*/
+.menu-navegacion ul li:hover a{
+	background: #9E89AD;
+	color: #FCF9FD;
+}
+
+
+.titulo-principal{
+	background: #B7B1F5;
+	text-align: center;
+}
+
+.titulo-principal h1{
+	margin: 0;
+	color: #D34836;
+	font-size: 26px;
+	/*Se pone mas gruesa la linea*/
+	padding: 15px 0;
+	padding-left: 10px;
+
+}
+
+h3{
+	color: #D34836;
+	font-size: 25px;
+	text-align: center;	
+}
+
+.titulo-secundariol{
+	display: block;
+	text-align: center;
+	/*Coloca mismmo margen izquierda y derecha*/
+	margin: 30px 30px;
+	width: 30%;
+	padding-bottom: 35px;
+	border-bottom: 2px solid gray;
+	background: #F3E656;
+	position: absolute; top: 280px; left: 0px;
+/*
+	top: 300px;
+	left: 220px;
+	Te mueves en la pantalla
+	https://librosweb.es/libro/css/capitulo_5/posicionamiento_flotante.html
+*/	
+}
+
+
+.titulo-secundarior{
+	display: block;
+	text-align: center;
+	/*Coloca mismmo margen izquierda y derecha*/
+	margin: 30px 30px;
+	width: 30%;
+	padding-bottom: 35px;
+	border-bottom: 2px solid gray;
+	background: #F3E656;
+	position: absolute; top: 280px; right:0; 
+}
+
+.titulo-secundarioc{
+	display: block;
+	text-align: center;
+	/*Coloca mismmo margen izquierda y derecha*/
+	margin: 30px 30px;
+	width: 30%;
+	padding-bottom: 35px;
+	border-bottom: 2px solid gray;
+	background: #F3E656;
+	position: absolute; top: 280px; left: 370px;
+/*
+	top: 300px;
+	left: 220px;
+	Te mueves en la pantalla
+	https://librosweb.es/libro/css/capitulo_5/posicionamiento_flotante.html
+*/	
+}
+
+
+.titulo-secundariolj{
+	display: block;
+	text-align: center;
+	margin: 30px 30px;
+	width: 30%;
+	padding-bottom: 35px;
+	border-bottom: 2px solid gray;
+	background: #F3E656;
+	position: absolute; top: 280px; left: 0px;
+}
+
+
+.titulo-secundariorj{
+	display: block;
+	text-align: center;
+	margin: 30px 30px;
+	width: 30%;
+	padding-bottom: 35px;
+	border-bottom: 2px solid gray;
+	background: #F3E656;
+	position: absolute; top: 280px; right:0; 
+}
+
+.titulo-secundariocj{
+	display: block;
+	text-align: center;
+	margin: 30px 30px;
+	width: 30%;
+	padding-bottom: 35px;
+	border-bottom: 2px solid gray;
+	background: #F3E656;
+	position: absolute; top: 280px; left: 370px;
+}
+
+p{
+	color: 	#A3292F;
+}
+
+a{
+	color: #FC5A02;
+	background: #F7DF9F;
+	text-decoration: none;
+}
+
+.imagen{
+	width: 1300px; height: 50px;
+	opacity: 0.7;
+}
