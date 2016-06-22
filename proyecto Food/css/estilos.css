@@ -1,0 +1,82 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #9B9BA2;
+
+}
+
+
+.navbar-default{
+	/*tamaña del objeto*/
+	padding: 20px 20px;
+	/*Fondo del objeto*/
+	background: #F3E656;
+	/*color de letra*/
+	color: #F3EAF9;
+	/*Quita el subrayado de la palabra*/
+	text-decoration: none;
+}
+
+
+.navbar-collapse{
+	/*Fondo del objeto*/
+	background: #9B7CE2;
+	/*color de letra*/
+	color: white;
+	font-size: 30;
+}
+.navbar-nav{
+	/*Fondo del objeto*/
+	background: #AEA3C8;	
+	float: right;
+	font: white;
+}
+ 
+
+
+.jumbotron{
+	text-align: left;
+	color: #D34836;
+	font-size: 56px;
+	background: #F3E656;
+}
+
+.jumbotron a{
+	float: right;
+	color: black;
+	background: #AEA3C8;
+}
+
+
+.imagen{
+	width: 1020px; height: 70px;
+	opacity: 0.5;
+	float: center;
+}
+
+
+/*No hace mis cambios*/
+.cuadro{
+	border: 2px solid white;
+	background: #F3E656;
+	float: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
